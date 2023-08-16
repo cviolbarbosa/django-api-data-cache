@@ -3,9 +3,9 @@ Django API Data Cache
 =======================================
 
 API Data Cache is a simple mixin for Django REST framework to serve database
-objects to clients using the api-data-cache service.
+objects to clients using the api_data_cache service.
 
-It is composed of a mixing for list views that processes the request parameters from api-data-cache 
+It is composed of a mixing for list views that processes the request parameters from api_data_cache 
 clients for pagination and filtering.
 
 
@@ -19,14 +19,14 @@ Installation
        pip install django_api_data_cache
 
 
-2. Add `'api-data-cache'` to your Django project's `INSTALLED_APPS` list in the `settings.py` file:
+2. Add `'api_data_cache'` to your Django project's `INSTALLED_APPS` list in the `settings.py` file:
 
    .. code-block:: python
 
        INSTALLED_APPS = [
            # ...
            'rest_framework',
-           'api-data-cache',
+           'api_data_cache',
            # ...
        ]
 
@@ -39,13 +39,13 @@ Usage
 
    .. code-block:: python
 
-       from api-data-cache.mixins import APIDataCacheListViewMixin
+       from api_data_cache.mixins import APIDataCacheListViewMixin
 
 2. Inherit the `APIDataCacheListViewMixin` in your view class:
 
    .. code-block:: python
 
-       from api-data-cache.mixins import APIDataCacheListViewMixin
+       from api_data_cache.mixins import APIDataCacheListViewMixin
        from rest_framework import viewsets
        from .models import YourModel
        from .serializer import YourPartialSerializer

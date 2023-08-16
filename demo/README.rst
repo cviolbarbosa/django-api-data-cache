@@ -21,8 +21,8 @@ Usage
     * Retrieve : `/measurements/{id}/`
 
 
-You can visualize the results in a front-end by running the api-data-cache angular demo at 
-https://github.com/cviolbarbosa/api-data-cache/tree/main/demo.
+You can visualize the results in a front-end by running the api_data_cache angular demo at 
+https://github.com/cviolbarbosa/api_data_cache/tree/main/demo.
 
    .. code-block:: bash
 
