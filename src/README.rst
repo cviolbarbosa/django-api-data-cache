@@ -18,6 +18,7 @@ Installation
 
        pip install django_api_data_cache
 
+
 2. Add `'api-data-cache'` to your Django project's `INSTALLED_APPS` list in the `settings.py` file:
 
    .. code-block:: python
